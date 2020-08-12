@@ -1,0 +1,115 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fbf9f9;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.wrapper-color{
+    background-color: white;
+    box-shadow: 0px 2px 6px #dedbdb;
+}
+.nav-shadow{
+    box-shadow: 0px 2px 6px #dedbdb;
+}
+.nav-shadow:hover{
+    box-shadow: none;
+    transition: 0.8s;
+}
+.hvr-img:hover{
+    background-color: gray;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.shadow {
+    box-shadow: 0px 2px 6px #dedbdb;
+  }
+.shadow:hover{
+    box-shadow: none;
+    transition: 0.8s;
+}
+.mvv:hover{
+    box-shadow: 2px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    transition: 0.8s;
+}
+.icon-wrapper{
+    top: 0;
+    bottom: 0;
+    margin-left: 0;
+    margin-top: 20%;
+    position: absolute;
+}
+.icon-wrapper ul{
+    width: 45px;
+    text-align: center;
+    padding-bottom: 4px;
+    background-color: White;
+    box-shadow: 0px 2px 6px #c5c2c2;
+}
+.icon-wrapper-scroll{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-left: 1%;
+}
+.icon-wrapper-scroll ul li{
+    display: inline;
+}
+.icon-wrapper-scroll ul{
+    width: 120px;
+    text-align: center;
+    margin-bottom: 1px;
+    padding-bottom: 4px;
+    background-color: white;
+    box-shadow:  0px 2px 6px #7a7777;
+}
+.icon-side{
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.icon-side:hover{
+    color: blue;
+}
+#side{
+    display: block;
+}
+#botom{
+    display: none;
+}
+.img-size{
+    width: auto;
+    height: 97px;
+    object-fit: cover;
+}
+@media (max-width: 767px) {
+    .moba-ssize { 
+        margin-top: 20px;
+    }
+    .icon-side{
+        font-size: 10px;
+    }
+    .icon-wrapper ul{
+        width: 35px;
+    }
+    .icon-wrapper-scroll ul{
+        width: 100px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 990px) {
+    .moba-msize{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .moba-con{
+        font-size: 12px;
+    }
+}
