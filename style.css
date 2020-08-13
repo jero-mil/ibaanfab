@@ -84,6 +84,9 @@ body{
     height: 97px;
     object-fit: cover;
 }
+#btn-arrow{
+    display: none;
+}
 @media (max-width: 720px) {
     .moba-ssize { 
         margin-top: 20px;
@@ -106,4 +109,9 @@ body{
     .moba-msize{
         margin-top: 20px;
     }
+}
+@media (min-width: 720px){
+    .btn-arrow{
+    display: none;
+}
 }
