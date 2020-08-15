@@ -31,16 +31,6 @@ body{
 }
 
 /* icon */
-.icon-wrapper{
-    margin-top: 30%;
-}
-.icon-wrapper ul{
-    width: 45px;
-    text-align: center;
-    padding-bottom: 4px;
-    background-color: White;
-    box-shadow: 0px 2px 6px #c5c2c2;
-}
 .icon-wrapper-scroll ul li{
     display: inline;
 }
@@ -63,9 +53,6 @@ body{
 .icon-side:hover{
     color: blue;
 }
-#side{
-    display: block;
-}
 #botom{
     display: none;
 }
@@ -74,16 +61,9 @@ body{
     height: 97px;
     object-fit: cover;
 }
-#btn-arrow{
-    display: none;
-}
 @media (max-width: 720px) {
     .moba-ssize { 
         margin-top: 20px;
-    }
-    .icon-wrapper ul{
-        width: auto;
-        padding-right: 10px;
     }
     .icon-wrapper-scroll ul{
         width: auto;
@@ -96,6 +76,9 @@ body{
     }
     .moba-con{
         font-size: 15px;
+    }
+    .margin-top{
+        margin-top: 20px;
     }
 }
 @media (max-width: 990px) {
