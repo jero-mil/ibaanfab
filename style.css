@@ -32,11 +32,7 @@ body{
 
 /* icon */
 .icon-wrapper{
-    top: 0;
-    bottom: 0;
-    margin-left: 0;
-    margin-top: 20%;
-    position: absolute;
+    margin-top: 30%;
 }
 .icon-wrapper ul{
     width: 45px;
@@ -45,20 +41,14 @@ body{
     background-color: White;
     box-shadow: 0px 2px 6px #c5c2c2;
 }
-.icon-wrapper-scroll{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    margin-left: 1%;
-}
 .icon-wrapper-scroll ul li{
     display: inline;
 }
 .icon-wrapper-scroll ul{
     width: 120px;
     text-align: center;
-    margin-bottom: 1px;
+    margin-right: 5px;
+    margin-bottom: 5px;
     padding-bottom: 4px;
     background-color: white;
     box-shadow:  0px 2px 6px #7a7777;
@@ -92,14 +82,17 @@ body{
         margin-top: 20px;
     }
     .icon-wrapper ul{
-        width: 35px;
+        width: auto;
+        padding-right: 10px;
     }
     .icon-wrapper-scroll ul{
-        width: 120px;
-        margin-bottom: 1px;
+        width: auto;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        float: right;
     }
     .icon-side{
-        font-size: 20px;
+        font-size: 30px;
     }
     .moba-con{
         font-size: 15px;
@@ -108,10 +101,5 @@ body{
 @media (max-width: 990px) {
     .moba-msize{
         margin-top: 20px;
-    }
-}
-@media (min-width: 720px){
-    .btn-arrow{
-    display: none;
     }
 }

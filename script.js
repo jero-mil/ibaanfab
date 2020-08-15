@@ -1,10 +1,7 @@
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.getElementById("btn-arrow").style.maxWidth = "720px") {
-    document.getElementById("btn-arrow").style.display = "none";
     if (document.body.scrollTop >= 20) {
-      document.getElementById("btn-arrow").style.display = "block";
       document.getElementById("botom").style.display = "block";
       document.getElementById("side").style.display = "none";
     }
@@ -14,7 +11,7 @@ function scrollFunction() {
     }
   }
 
-}
+
 
 
 function togle() {
